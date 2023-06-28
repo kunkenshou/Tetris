@@ -1,3 +1,7 @@
 h1 {
  font-size:15px;
 }
+
+canvas#game {
+  background: green;
+}
