@@ -15,8 +15,8 @@ canvas#game {
 .pattern {
   background-color: #0eee;
   background-image:
-    linear-gradient(90deg, black 1%, transparent 1%, transparent 99%, black 1%, black),
-    linear-gradient(0deg, black 1%, transparent 1%, transparent 99%, black 1%, black);
-  background-size: 30px 30px;
+    linear-gradient(90deg, black 1px, transparent 1px, transparent 99px, black 1px, black),
+    linear-gradient(0deg, black 1px, transparent 1px, transparent 99px, black 1px, black);
+  background-size: 10% 5%;
   background-position: 0 0, 30px 30px;
 }
