@@ -4,8 +4,8 @@ console.log("test")
 var canvas = document.getElementById('game');
 var ctx = canvas.getContext('2d');
 //ctx.fillStyle = 'green';
-ctx.fillRect(100, 100, 340, 640);
-
+ctx.fillRect(100, 100, 30, 30);
+ctx.moveTo(200, 300)
 
 /*
 
@@ -19,7 +19,6 @@ CSS
 ゲーム定義
 ・テトロミノ
 ・プレイフィールド
-
 
 プレイフィールドの定義
 ・プレイフィールド外の上部から
@@ -57,6 +56,15 @@ CSS
 入出力
 ・キーボード矢印キーが投入されたら
 上下左右の入力値を読み込み
+
+備考
+・衝突判定
+
+これからすること
+fillRectオブジェクトを自動的に上から下に移動する。
+fillRectオブジェクトをキーボードの操作で移動する。
+fillRectオブジェクトをキーボードの操作で回転する。
+playfieldの下に到着したら止まる。
 
 
 */
